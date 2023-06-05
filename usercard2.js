@@ -4,7 +4,7 @@ let maheshbabu = {
     Description: "Actor"
 }
 let maheshyounginfo = {
-    imgurl: "https://pbs.twimg.com/media/ESbtvN-U8AEd8Kn.jpg",
+    imgurl: "https://wikibio.in/wp-content/uploads/2019/03/Maithili-Thakur.jpg",
     name: "maithili",
     Description: "Actor"
 
