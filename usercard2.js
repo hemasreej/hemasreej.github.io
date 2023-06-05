@@ -15,7 +15,7 @@ let ismahesh = true;
 let displayobject;
 let flipdata = function(){
     if (ismahesh == true){
-        displayobject = maithili;
+        displayobject = maheshyounginfo;
         ismahesh = false;
     }
     else{
