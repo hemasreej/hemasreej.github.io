@@ -4,7 +4,7 @@ let maheshbabu = {
     Description: "Actor"
 }
 let maheshyounginfo = {
-    imgurl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbZpRNiXIlAEtQCXDJ3ehxXhjdGiAWKM2IKt_OTlHALA&usqp=CAU&ec=48665701",
+    imgurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbZpRNiXIlAEtQCXDJ3ehxXhjdGiAWKM2IKt_OTlHALA&usqp=CAU&ec=48665701",
     name: "maithili",
     Description: "Actor"
 
