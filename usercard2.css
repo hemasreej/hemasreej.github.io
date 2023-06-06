@@ -1,20 +1,28 @@
-.container{
-    margin-left: 100px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 30%;
-    transition: 0.3s;
-}
-.cardimg{
+
+table {
     width: 100%;
+    border-collapse: collapse;
 }
-.cardbody{
-    padding: 2px 16px;
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
-.cardbody-designation{
+
+th {
+    background-color: #f2f2f2;
+}
+
+.link-cell a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.remarks-cell {
     font-style: italic;
-}
-.card:hover{
-    box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
 }
