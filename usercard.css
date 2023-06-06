@@ -1,20 +1,28 @@
-.container{
-    margin-left: 100px;
-}
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 30%;
-    transition: 0.3s;
-}
-.cardimg{
+/* site.css */
+
+/* Table Styling */
+table {
     width: 100%;
-}
-.cardbody{
-    padding: 2px 16px;
-}
-.cardbody-designation{
-    font-style: italic;
-}
-.card:hover{
-    box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
-}
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Link Styling */
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
