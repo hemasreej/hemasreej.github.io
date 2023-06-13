@@ -13,7 +13,12 @@ let maheshbabu = {
 
 let ismahesh = true;
 // using fetch functionm to call api 
-let displayobject;
+let displayobject = {
+    name:"",
+    imageurl: "",
+    description:""
+
+};
 let getRandomUser = function(){
     // if (ismahesh == true){
     //     displayobject = maheshyounginfo;
