@@ -16,7 +16,7 @@ let ismahesh = true;
 let displayobject = {
     name:"",
     imageurl: "",
-    description:""
+    description:"",
 
 };
 let getRandomUser = function(){
