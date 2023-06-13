@@ -24,6 +24,7 @@ let getRandomUser = function(){
     // }
     fetch("https://randomuser.me/api")
     .then(response => response.json())
+    .then(data => console.log(data))
     document.getElementById("maiimg").src= displayobject.imgurl;
     document.getElementById("maithili").innerHTML = displayobject.name;
     document.getElementById("descri").innerHTML = displayobject.Description;
