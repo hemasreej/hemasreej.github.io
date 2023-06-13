@@ -27,10 +27,11 @@ let getRandomUser = function(){
     .then(response => response.json())
     // .then(data => console.log(data))
     .then(data => {
-        displayobject.name= data.results[0].name.first+" "+ data.results[0].last;
-        displayobject.imageurl = daat.results[0].picture.large;
-        displayobject.description = data.results[0].gender;
-        document.getElementById("maiimg").src= displayobject.imgurl;
+        // displayobject.name= data.results[0].name.first+" "+ data.results[0].last;
+        displayobject.name = "Maithili";
+        // displayobject.imageurl = daat.results[0].picture.large;
+        // displayobject.description = data.results[0].gender;
+        document.getElementById("maiimg").src= displayobject.imageurl;
         document.getElementById("maithili").innerHTML = displayobject.name;
         document.getElementById("descri").innerHTML = displayobject.Description;
 
