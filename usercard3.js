@@ -3,25 +3,27 @@ let maheshbabu = {
     name: "Maithili Thakur",
     Description: "Indian playback singer"
 }
-let maheshyounginfo = {
-    imgurl: "https://wikibio.in/wp-content/uploads/2019/03/Maithili-Thakur.jpg",
-    name: "maithili",
-    Description: "Indian Playback Singer"
+// let maheshyounginfo = {
+//     imgurl: "https://wikibio.in/wp-content/uploads/2019/03/Maithili-Thakur.jpg",
+//     name: "maithili",
+//     Description: "Indian Playback Singer"
+// }
 
 
 
-}
 let ismahesh = true;
 let displayobject;
-let flipdata = function(){
-    if (ismahesh == true){
-        displayobject = maheshyounginfo;
-        ismahesh = false;
-    }
-    else{
-        displayobject = maheshbabu;
-        ismahesh = true;
-    }
+let getRandomUser = function(){
+    // if (ismahesh == true){
+    //     displayobject = maheshyounginfo;
+    //     ismahesh = false;
+    // }
+    // else{
+    //     displayobject = maheshbabu;
+    //     ismahesh = true;
+    // }
+    fetch("https://randomuser.me/api")
+    .then(response => response.json())
     document.getElementById("maiimg").src= displayobject.imgurl;
     document.getElementById("maithili").innerHTML = displayobject.name;
     document.getElementById("descri").innerHTML = displayobject.Description;
