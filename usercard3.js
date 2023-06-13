@@ -38,7 +38,7 @@ let getRandomUser = function(){
         displayobject.description = data.results[0].gender;
         document.getElementById("maiimg").src= displayobject.imageurl;
         document.getElementById("maithili").innerHTML = displayobject.name;
-        document.getElementById("descri").innerHTML = displayobject.Description;
+        document.getElementById("descri").innerHTML = displayobject.description;
 
     })
 
