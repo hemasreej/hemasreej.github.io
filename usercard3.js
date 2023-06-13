@@ -12,6 +12,7 @@ let maheshbabu = {
 
 
 let ismahesh = true;
+// using fetch functionm to call api 
 let displayobject;
 let getRandomUser = function(){
     // if (ismahesh == true){
